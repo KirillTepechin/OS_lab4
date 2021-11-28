@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="FormDisk">
+  <grid id="27dc6" binding="panel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="27" y="18" width="592" height="394"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="afa37" class="javax.swing.JTree" binding="tree">
+        <constraints border-constraint="West"/>
+        <properties/>
+      </component>
+      <grid id="a6ac6" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="6a9b5" class="javax.swing.JTextField" binding="textField">
+            <constraints/>
+            <properties>
+              <preferredSize width="60" height="30"/>
+            </properties>
+          </component>
+          <component id="7d0e4" class="javax.swing.JButton" binding="buttonAdd">
+            <constraints/>
+            <properties>
+              <actionCommand value="Button"/>
+              <label value="Add"/>
+              <text value="Add"/>
+            </properties>
+          </component>
+          <component id="6d4ea" class="javax.swing.JButton" binding="buttonRemove">
+            <constraints/>
+            <properties>
+              <label value="Remove"/>
+              <text value="Remove"/>
+            </properties>
+          </component>
+          <component id="964e2" class="javax.swing.JButton" binding="buttonFolder">
+            <constraints/>
+            <properties>
+              <text value="Add folder"/>
+            </properties>
+          </component>
+          <component id="2b85a" class="javax.swing.JButton" binding="buttonCopy">
+            <constraints/>
+            <properties>
+              <text value="Copy"/>
+            </properties>
+          </component>
+          <component id="5f3f2" class="javax.swing.JButton" binding="buttonPaste">
+            <constraints/>
+            <properties>
+              <enabled value="false"/>
+              <text value="Paste"/>
+            </properties>
+          </component>
+          <component id="5c8fe" class="javax.swing.JButton" binding="buttonMove">
+            <constraints/>
+            <properties>
+              <enabled value="false"/>
+              <text value="Move"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
